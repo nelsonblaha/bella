@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @resident.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @resident.last_name %>
+</p>
+
+<p>
+  <strong>Birth:</strong>
+  <%= @resident.birth %>
+</p>
+
+<p>
+  <strong>Arrival:</strong>
+  <%= @resident.arrival %>
+</p>
+
+<p>
+  <strong>Asylum status:</strong>
+  <%= @resident.asylum_status %>
+</p>
+
+<p>
+  <strong>Work permit:</strong>
+  <%= @resident.work_permit %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @resident.country %>
+</p>
+
+<p>
+  <strong>Eligible:</strong>
+  <%= @resident.eligible %>
+</p>
+
+<%= link_to 'Edit', edit_resident_path(@resident) %> |
+<%= link_to 'Back', residents_path %>
